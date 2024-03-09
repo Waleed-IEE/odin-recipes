@@ -49,7 +49,4 @@ For any inquiries or collaborations, feel free to reach out to me via email at [
 
 ---
 
-[![GitHub stars](https://img.shields.io/github/stars/your-username/recipes-website.svg?style=social)](https://github.com/Waleed-IEE/odin-recipes/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/your-username/recipes-website.svg?style=social)](https://github.com/Waleed-IEE/odin-recipes/network)
-
 **Thank you for visiting!** 🌟
