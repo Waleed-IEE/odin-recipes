@@ -25,7 +25,7 @@ Upon completion of this project, I would have gained proficiency in:
 
 ## Showcase
 
-[Website_Link](https://waleed-iee.github.io/odin-recipes/ "Github Recipes website" target="_blank" rel="noopener noreferrer") - Experience the website in action!
+[Website_Link](https://waleed-iee.github.io/odin-recipes/){:target="_blank" rel="noopener"} - Experience the website in action!
 
 ## How to Use
 
