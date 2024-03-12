@@ -1,0 +1,18 @@
+body{
+    background-color:bisque;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+}
+h1,p,ul{
+    text-align: center;
+}
+h1,ul{
+    background-color:burlywood;
+}
+h1{
+    color:chocolate;
+}
+ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+  }
