@@ -9,19 +9,26 @@ h1,ul {
     background-color:#deb887
     }
 h1 {
-    color:#d2691e
+    color:#d2691e;
+    margin-top: 0;
+    margin-bottom: 0
     }
 ul {
     list-style-type:none;
     padding:0;
-    margin:0
+    margin:0;
+    display: inline-flex;
     }
-:not(a,html) {
-    /*outline:2px solid red;*/
-    margin:10px;
-    padding:10px
+:not(a,html, .unordered-list) {
+    outline:2px solid red;
+    padding:16px
     }
-li {
-    padding:10px;
-    margin:0
-    }
+
+.unordered-list{
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
