@@ -1,20 +1,53 @@
-body{
-    background-color:bisque;
-    font-family: "Trebuchet MS", Arial, sans-serif;
+* {
+    box-sizing:border-box
 }
-h1,p{
-    text-align: center;
+
+body {
+    background-color:#ffe4c4;
+    font-family:"Trebuchet MS",Arial,sans-serif
 }
-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    width:20%;
+
+:not(html) {
+    padding:16px
 }
-h1,ul,p,ol{
-    background-color:burlywood;
+
+h1 {
+    color:#d2691e;
+    margin-bottom:0;
+    margin-top:0;
+    text-align:center
 }
-h1{
-    color:chocolate;
+
+img {
+    display:block;
+    height:auto;
+    margin:auto;
+    width:60%
+}
+
+li {
+    background-color:#ffd39a;
+    margin:5px
+}
+
+h2,p,ul,ol {
+    margin:0
+}
+
+h1,ul,p,ol,.recipe-container,p {
+    background-color:#deb887
+}
+
+@media only screen and (min-width: 1024px) {
+    .recipe-container {
+        margin:auto;
+        width:85%
+    }
+
+    img {
+        display:block;
+        height:auto;
+        margin:auto;
+        width:20%
+    }
 }
