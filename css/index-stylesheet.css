@@ -1,6 +1,10 @@
+*{
+    box-sizing: border-box;
+}
 body {
     background-color:#ffe4c4;
-    font-family:"Trebuchet MS",Arial,sans-serif
+    font-family:"Trebuchet MS",Arial,sans-serif;
+    margin: 16px
     }
 h1,p,ul {
     text-align:center
@@ -16,19 +20,25 @@ h1 {
 ul {
     list-style-type:none;
     padding:0;
-    margin:0;
-    display: inline-flex;
+    margin:0
     }
+li{
+    background-color: rgb(255, 211, 154);
+    margin: 5px;
+}
 :not(a,html, .unordered-list) {
-    outline:2px solid red;
-    padding:16px
+    padding:11px
     }
 
 .unordered-list{
-    width: 500px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    margin: 0 auto
+}
+@media only screen and (min-width: 1024px){
+    body{
+        width: 50%;
+        margin: 16px auto
+    }
+    .unordered-list{
+        width: 40%
+    }
 }
